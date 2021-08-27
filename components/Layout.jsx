@@ -1,5 +1,5 @@
 import styles from "../styles/Layout.module.css";
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div classMame={styles.container}>
       <main className={style.main}>{children}</main>
